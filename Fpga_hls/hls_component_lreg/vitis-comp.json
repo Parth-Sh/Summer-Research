@@ -1,0 +1,13 @@
+{
+  "name": "hls_component_lreg",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "hls_config.cfg"
+    ],
+    "work_dir": "linear_model"
+  },
+  "useSysrootToolchain": false,
+  "template": "empty_hls_component"
+}

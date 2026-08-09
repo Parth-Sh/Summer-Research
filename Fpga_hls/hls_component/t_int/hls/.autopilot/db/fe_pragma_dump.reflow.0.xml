@@ -1,0 +1,13 @@
+<pragmas>
+<pragma file="../t_int.cpp" line="30" pragmaType="interface" parentfunction="t_int" mode="s_axilite" port="" bundle="HLS_TREEADD_PERIPH_BUS" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../t_int.cpp" line="31" pragmaType="interface" parentfunction="t_int" mode="s_axilite" port="a" bundle="HLS_TREEADD_PERIPH_BUS" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../t_int.cpp" line="32" pragmaType="interface" parentfunction="t_int" mode="s_axilite" port="b" bundle="HLS_TREEADD_PERIPH_BUS" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../t_int.cpp" line="33" pragmaType="interface" parentfunction="t_int" mode="s_axilite" port="c" bundle="HLS_TREEADD_PERIPH_BUS" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../t_int.cpp" line="34" pragmaType="interface" parentfunction="t_int" mode="s_axilite" port="d" bundle="HLS_TREEADD_PERIPH_BUS" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../t_int.cpp" line="35" pragmaType="interface" parentfunction="t_int" mode="s_axilite" port="e" bundle="HLS_TREEADD_PERIPH_BUS" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../t_int.cpp" line="36" pragmaType="interface" parentfunction="t_int" mode="s_axilite" port="f" bundle="HLS_TREEADD_PERIPH_BUS" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../t_int.cpp" line="37" pragmaType="interface" parentfunction="t_int" mode="s_axilite" port="g" bundle="HLS_TREEADD_PERIPH_BUS" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../t_int.cpp" line="38" pragmaType="interface" parentfunction="t_int" mode="s_axilite" port="h" bundle="HLS_TREEADD_PERIPH_BUS" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../t_int.cpp" line="39" pragmaType="interface" parentfunction="t_int" mode="s_axilite" port="r" bundle="HLS_TREEADD_PERIPH_BUS" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../t_int.cpp" line="40" pragmaType="interface" parentfunction="t_int" mode="s_axilite" port="done" bundle="HLS_TREEADD_PERIPH_BUS" offset="-1" name="" clock="" impl="" register="0"/>
+</pragmas>

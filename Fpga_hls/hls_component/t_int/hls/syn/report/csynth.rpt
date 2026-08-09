@@ -1,0 +1,152 @@
+
+
+================================================================
+== Synthesis Summary Report of 't_int'
+================================================================
++ General Information: 
+    * Date:           Wed Jun 24 14:01:00 2026
+    * Version:        2025.1 (Build 6135595 on May 21 2025)
+    * Project:        t_int
+    * Solution:       hls (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z020-clg484-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +---------+------+------+---------+--------+----------+---------+------+----------+------+----+-----------+----------+-----+
+    | Modules | Issue|      |      Latency     | Iteration|         | Trip |          |      |    |           |          |     |
+    | & Loops | Type | Slack| (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined| BRAM | DSP|     FF    |    LUT   | URAM|
+    +---------+------+------+---------+--------+----------+---------+------+----------+------+----+-----------+----------+-----+
+    |+ t_int  |     -|  0.08|        1|  10.000|         -|        2|     -|        no|     -|   -|  498 (~0%)|  907 (1%)|    -|
+    +---------+------+------+---------+--------+----------+---------+------+----------+------+----+-----------+----------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* S_AXILITE Interfaces
++------------------------------+------------+---------------+--------+----------+
+| Interface                    | Data Width | Address Width | Offset | Register |
++------------------------------+------------+---------------+--------+----------+
+| s_axi_HLS_TREEADD_PERIPH_BUS | 32         | 7             | 16     | 0        |
++------------------------------+------------+---------------+--------+----------+
+
+* S_AXILITE Registers
++------------------------------+-----------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| Interface                    | Register  | Offset | Width | Access | Description                      | Bit Fields                                                           |
++------------------------------+-----------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| s_axi_HLS_TREEADD_PERIPH_BUS | CTRL      | 0x00   | 32    | RW     | Control signals                  | 0=AP_START 1=AP_DONE 2=AP_IDLE 3=AP_READY 7=AUTO_RESTART 9=INTERRUPT |
+| s_axi_HLS_TREEADD_PERIPH_BUS | GIER      | 0x04   | 32    | RW     | Global Interrupt Enable Register | 0=Enable                                                             |
+| s_axi_HLS_TREEADD_PERIPH_BUS | IP_IER    | 0x08   | 32    | RW     | IP Interrupt Enable Register     | 0=CHAN0_INT_EN 1=CHAN1_INT_EN                                        |
+| s_axi_HLS_TREEADD_PERIPH_BUS | IP_ISR    | 0x0c   | 32    | RW     | IP Interrupt Status Register     | 0=CHAN0_INT_ST 1=CHAN1_INT_ST                                        |
+| s_axi_HLS_TREEADD_PERIPH_BUS | a         | 0x10   | 32    | W      | Data signal of a                 |                                                                      |
+| s_axi_HLS_TREEADD_PERIPH_BUS | b         | 0x18   | 32    | W      | Data signal of b                 |                                                                      |
+| s_axi_HLS_TREEADD_PERIPH_BUS | c         | 0x20   | 32    | W      | Data signal of c                 |                                                                      |
+| s_axi_HLS_TREEADD_PERIPH_BUS | d         | 0x28   | 32    | W      | Data signal of d                 |                                                                      |
+| s_axi_HLS_TREEADD_PERIPH_BUS | e         | 0x30   | 32    | W      | Data signal of e                 |                                                                      |
+| s_axi_HLS_TREEADD_PERIPH_BUS | f         | 0x38   | 32    | W      | Data signal of f                 |                                                                      |
+| s_axi_HLS_TREEADD_PERIPH_BUS | g         | 0x40   | 32    | W      | Data signal of g                 |                                                                      |
+| s_axi_HLS_TREEADD_PERIPH_BUS | h         | 0x48   | 32    | W      | Data signal of h                 |                                                                      |
+| s_axi_HLS_TREEADD_PERIPH_BUS | r         | 0x50   | 32    | R      | Data signal of r                 |                                                                      |
+| s_axi_HLS_TREEADD_PERIPH_BUS | r_ctrl    | 0x54   | 32    | R      | Control signal of r              | 0=r_ap_vld                                                           |
+| s_axi_HLS_TREEADD_PERIPH_BUS | done      | 0x60   | 32    | R      | Data signal of done              |                                                                      |
+| s_axi_HLS_TREEADD_PERIPH_BUS | done_ctrl | 0x64   | 32    | R      | Control signal of done           | 0=done_ap_vld                                                        |
++------------------------------+-----------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------+
+| Interface | Type       | Ports     |
++-----------+------------+-----------+
+| ap_clk    | clock      | ap_clk    |
+| ap_rst_n  | reset      | ap_rst_n  |
+| interrupt | interrupt  | interrupt |
+| ap_ctrl   | ap_ctrl_hs |           |
++-----------+------------+-----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+----------+
+| Argument | Direction | Datatype |
++----------+-----------+----------+
+| a        | in        | int      |
+| b        | in        | int      |
+| c        | in        | int      |
+| d        | in        | int      |
+| e        | in        | int      |
+| f        | in        | int      |
+| g        | in        | int      |
+| h        | in        | int      |
+| r        | out       | int*     |
+| done     | out       | short*   |
++----------+-----------+----------+
+
+* SW-to-HW Mapping
++----------+------------------------------+----------+-------------------------------------+
+| Argument | HW Interface                 | HW Type  | HW Info                             |
++----------+------------------------------+----------+-------------------------------------+
+| a        | s_axi_HLS_TREEADD_PERIPH_BUS | register | name=a offset=0x10 range=32         |
+| b        | s_axi_HLS_TREEADD_PERIPH_BUS | register | name=b offset=0x18 range=32         |
+| c        | s_axi_HLS_TREEADD_PERIPH_BUS | register | name=c offset=0x20 range=32         |
+| d        | s_axi_HLS_TREEADD_PERIPH_BUS | register | name=d offset=0x28 range=32         |
+| e        | s_axi_HLS_TREEADD_PERIPH_BUS | register | name=e offset=0x30 range=32         |
+| f        | s_axi_HLS_TREEADD_PERIPH_BUS | register | name=f offset=0x38 range=32         |
+| g        | s_axi_HLS_TREEADD_PERIPH_BUS | register | name=g offset=0x40 range=32         |
+| h        | s_axi_HLS_TREEADD_PERIPH_BUS | register | name=h offset=0x48 range=32         |
+| r        | s_axi_HLS_TREEADD_PERIPH_BUS | register | name=r offset=0x50 range=32         |
+| r        | s_axi_HLS_TREEADD_PERIPH_BUS | register | name=r_ctrl offset=0x54 range=32    |
+| done     | s_axi_HLS_TREEADD_PERIPH_BUS | register | name=done offset=0x60 range=32      |
+| done     | s_axi_HLS_TREEADD_PERIPH_BUS | register | name=done_ctrl offset=0x64 range=32 |
++----------+------------------------------+----------+-------------------------------------+
+
+
+================================================================
+== Bind Op Report
+================================================================
++------------------------+-----+--------+------------+-----+--------+---------+
+| Name                   | DSP | Pragma | Variable   | Op  | Impl   | Latency |
++------------------------+-----+--------+------------+-----+--------+---------+
+| + t_int                | 0   |        |            |     |        |         |
+|   add_ln43_fu_133_p2   |     |        | add_ln43   | add | fabric | 0       |
+|   add_ln43_1_fu_139_p2 |     |        | add_ln43_1 | add | fabric | 0       |
+|   add_ln43_4_fu_151_p2 |     |        | add_ln43_4 | add | fabric | 0       |
++------------------------+-----+--------+------------+-----+--------+---------+
+
+
+================================================================
+== Storage Report
+================================================================
++----------------------------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+| Name                             | Usage     | Type      | BRAM | URAM | Pragma | Variable | Impl | Latency | Bitwidth, Depth, |
+|                                  |           |           |      |      |        |          |      |         | Banks            |
++----------------------------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+| + t_int                          |           |           | 0    | 0    |        |          |      |         |                  |
+|   HLS_TREEADD_PERIPH_BUS_s_axi_U | interface | s_axilite |      |      |        |          |      |         |                  |
++----------------------------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------+-----------------------------------------------------+----------------------------------+
+| Type      | Options                                             | Location                         |
++-----------+-----------------------------------------------------+----------------------------------+
+| INTERFACE | s_axilite port=return bundle=HLS_TREEADD_PERIPH_BUS | ../t_int.cpp:30 in t_int, return |
+| INTERFACE | s_axilite port=a bundle=HLS_TREEADD_PERIPH_BUS      | ../t_int.cpp:31 in t_int, a      |
+| INTERFACE | s_axilite port=b bundle=HLS_TREEADD_PERIPH_BUS      | ../t_int.cpp:32 in t_int, b      |
+| INTERFACE | s_axilite port=c bundle=HLS_TREEADD_PERIPH_BUS      | ../t_int.cpp:33 in t_int, c      |
+| INTERFACE | s_axilite port=d bundle=HLS_TREEADD_PERIPH_BUS      | ../t_int.cpp:34 in t_int, d      |
+| INTERFACE | s_axilite port=e bundle=HLS_TREEADD_PERIPH_BUS      | ../t_int.cpp:35 in t_int, e      |
+| INTERFACE | s_axilite port=f bundle=HLS_TREEADD_PERIPH_BUS      | ../t_int.cpp:36 in t_int, f      |
+| INTERFACE | s_axilite port=g bundle=HLS_TREEADD_PERIPH_BUS      | ../t_int.cpp:37 in t_int, g      |
+| INTERFACE | s_axilite port=h bundle=HLS_TREEADD_PERIPH_BUS      | ../t_int.cpp:38 in t_int, h      |
+| INTERFACE | s_axilite port=r bundle=HLS_TREEADD_PERIPH_BUS      | ../t_int.cpp:39 in t_int, r      |
+| INTERFACE | s_axilite port=done bundle=HLS_TREEADD_PERIPH_BUS   | ../t_int.cpp:40 in t_int, done   |
++-----------+-----------------------------------------------------+----------------------------------+
+
+

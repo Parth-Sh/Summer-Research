@@ -1,0 +1,13 @@
+{
+  "name": "hls_component_mmul",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "hls_config.cfg"
+    ],
+    "work_dir": "matrixmul"
+  },
+  "useSysrootToolchain": false,
+  "template": "empty_hls_component"
+}

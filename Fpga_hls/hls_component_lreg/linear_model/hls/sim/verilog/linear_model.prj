@@ -1,0 +1,13 @@
+sv xil_defaultlib "glbl.v"
+sv xil_defaultlib "linear_model.autotb.v"
+sv xil_defaultlib "linear_model.v"
+sv xil_defaultlib "linear_model_HLS_LINEAR_PERIPH_BUS_s_axi.v"
+sv xil_defaultlib "linear_model_mul_32s_32s_32_2_1.v"
+sv xil_defaultlib "dataflow_monitor.sv"
+sv xil_defaultlib "./file_agent/file_agent_pkg.sv"     
+sv xil_defaultlib "./axivip/axi_pkg.sv"    
+sv xil_defaultlib "./axivip/axi_if.sv"   
+sv xil_defaultlib "./linear_model_subsystem/linear_model_subsystem_pkg.sv"           
+sv xil_defaultlib "./svtb/misc_interface.sv"    
+sv xil_defaultlib "./svtb/sv_module_top.sv"   
+

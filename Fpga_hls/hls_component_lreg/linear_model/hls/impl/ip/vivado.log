@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Tue Jun 30 10:31:31 2026
+# Process ID         : 16728
+# Current directory  : D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/hls/impl/ip
+# Command line       : vivado.exe -notrace -mode batch -source run_ippack.tcl
+# Log file           : D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/hls/impl/ip/vivado.log
+# Journal file       : D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/hls/impl/ip\vivado.jou
+# Running On         : CML-09
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19045
+# Processor Detail   : Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz
+# CPU Frequency      : 3193 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 68637 MB
+# Swap memory        : 0 MB
+# Total Virtual      : 68637 MB
+# Available Virtual  : 43974 MB
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace
+INFO: calling package_hls_ip ip_types=vitis sysgen json_file=D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/hls/hls_data.json outdir=D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/hls/impl/ip srcdir=D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/hls ippack_options_dict= ippack_options_dict=
+INFO: Copied 1 ipmisc file(s) to D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/hls/impl/ip/misc
+INFO: Copied 3 verilog file(s) to D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/hls/impl/ip/hdl/verilog
+INFO: Copied 3 vhdl file(s) to D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/hls/impl/ip/hdl/vhdl
+INFO: Copied 10 swdriver file(s) to D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/hls/impl/ip/drivers
+ipx::create_core: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 518.414 ; gain = 213.016
+INFO: Import ports from HDL: D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/hls/impl/ip/hdl/vhdl/linear_model.vhd (linear_model)
+INFO: Add axi4lite interface s_axi_HLS_LINEAR_PERIPH_BUS
+INFO: Add clock interface ap_clk
+INFO: Add reset interface ap_rst_n
+INFO: Add interrupt interface interrupt
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/2025.1/Vivado/data/ip'.
+INFO: Calling post_process_vitis to specialize IP
+INFO: Calling post_process_sysgen to specialize IP
+Generating sysgen info xml from json file
+INFO: Created IP D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/hls/impl/ip/component.xml
+INFO: Created IP archive D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/hls/impl/ip/xilinx_com_hls_linear_model_1_0.zip
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 30 10:31:48 2026...

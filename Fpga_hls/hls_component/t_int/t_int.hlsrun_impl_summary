@@ -1,0 +1,269 @@
+<ENTRY>
+{
+ "thisFile": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component\\t_int\\t_int.hlsrun_impl_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "06/24/26 14:04:20",
+ "timestampMillis": "1782327860879",
+ "buildStep": {
+  "cmdId": "b251d3a6-4297-4bf1-bbbe-acd9dcdd3fa4",
+  "name": "vitis-run",
+  "logFile": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component\\t_int\\logs\\t_int.steps.log",
+  "commandLine": "C:/Xilinx/2025.1/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --impl --config D:\\ELEC_522\\FpgaEx\\Fpga_hls\\hls_component\\hls_config.cfg --work_dir t_int ",
+  "args": [
+   "--mode",
+   "hls",
+   "--impl",
+   "--config",
+   "D:\\ELEC_522\\FpgaEx\\Fpga_hls\\hls_component\\hls_config.cfg",
+   "--work_dir",
+   "t_int"
+  ],
+  "iniFiles": [],
+  "cwd": "D:\\ELEC_522\\FpgaEx\\Fpga_hls\\hls_component"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/24/26 14:04:20",
+ "timestampMillis": "1782327860879",
+ "status": {
+  "cmdId": "b251d3a6-4297-4bf1-bbbe-acd9dcdd3fa4",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "06/24/26 14:04:29",
+ "timestampMillis": "1782327869680",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IMPL",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "t_int",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "D:/ELEC_522\\FpgaEx\\Fpga_hls\\t_int.cpp",
+     "D:/ELEC_522\\FpgaEx\\Fpga_hls\\t_int.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "06/24/26 14:04:29",
+ "timestampMillis": "1782327869682",
+ "buildStep": {
+  "cmdId": "4088efb7-f589-4439-9bed-edf7f9e94f7a",
+  "name": "",
+  "logFile": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component\\t_int\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "D:\\ELEC_522\\FpgaEx\\Fpga_hls\\hls_component"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/24/26 14:04:29",
+ "timestampMillis": "1782327869682",
+ "status": {
+  "cmdId": "4088efb7-f589-4439-9bed-edf7f9e94f7a",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/24/26 14:04:29",
+ "timestampMillis": "1782327869684",
+ "report": {
+  "path": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component\\t_int\\hls\\impl\\verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/24/26 14:04:29",
+ "timestampMillis": "1782327869685",
+ "report": {
+  "path": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component\\t_int\\hls\\impl\\report\\verilog\\export_syn.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/24/26 14:04:29",
+ "timestampMillis": "1782327869685",
+ "report": {
+  "path": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component\\t_int\\hls\\impl\\report\\verilog\\export_syn.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/24/26 14:04:29",
+ "timestampMillis": "1782327869686",
+ "report": {
+  "path": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component\\t_int\\hls\\impl\\verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/24/26 14:04:29",
+ "timestampMillis": "1782327869686",
+ "report": {
+  "path": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component\\t_int\\hls\\impl\\report\\verilog\\export_impl.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/24/26 14:04:29",
+ "timestampMillis": "1782327869687",
+ "report": {
+  "path": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component\\t_int\\hls\\impl\\report\\verilog\\export_impl.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/24/26 14:10:12",
+ "timestampMillis": "1782328212330",
+ "report": {
+  "path": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component\\t_int\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/24/26 14:10:12",
+ "timestampMillis": "1782328212331",
+ "report": {
+  "path": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component\\t_int\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/24/26 14:10:12",
+ "timestampMillis": "1782328212332",
+ "status": {
+  "cmdId": "4088efb7-f589-4439-9bed-edf7f9e94f7a",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/24/26 14:10:12",
+ "timestampMillis": "1782328212488",
+ "status": {
+  "cmdId": "b251d3a6-4297-4bf1-bbbe-acd9dcdd3fa4",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/24/26 14:10:12",
+ "timestampMillis": "1782328212488",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/24/26 14:10:12",
+ "timestampMillis": "1782328212489",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

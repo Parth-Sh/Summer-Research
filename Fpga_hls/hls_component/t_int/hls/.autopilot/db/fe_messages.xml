@@ -1,0 +1,39 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="directive:1:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="t_int" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=t_int" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../t_int.cpp:30:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="t_int" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=return bundle=HLS_TREEADD_PERIPH_BUS" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../t_int.cpp:31:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="t_int" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=a bundle=HLS_TREEADD_PERIPH_BUS" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../t_int.cpp:32:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="t_int" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=b bundle=HLS_TREEADD_PERIPH_BUS" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../t_int.cpp:33:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="t_int" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=c bundle=HLS_TREEADD_PERIPH_BUS" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../t_int.cpp:34:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="t_int" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=d bundle=HLS_TREEADD_PERIPH_BUS" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../t_int.cpp:35:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="t_int" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=e bundle=HLS_TREEADD_PERIPH_BUS" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../t_int.cpp:36:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="t_int" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=f bundle=HLS_TREEADD_PERIPH_BUS" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../t_int.cpp:37:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="t_int" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=g bundle=HLS_TREEADD_PERIPH_BUS" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../t_int.cpp:38:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="t_int" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=h bundle=HLS_TREEADD_PERIPH_BUS" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../t_int.cpp:39:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="t_int" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=r bundle=HLS_TREEADD_PERIPH_BUS" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../t_int.cpp:40:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="t_int" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=done bundle=HLS_TREEADD_PERIPH_BUS" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

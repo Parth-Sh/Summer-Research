@@ -1,0 +1,3 @@
+D:\ELEC_522\FpgaEx\Fpga_hls\hls_component\..\t_int.cpp:12:10: fatal error: 'cmath' file not found
+#include <cmath>
+         ^~~~~~~

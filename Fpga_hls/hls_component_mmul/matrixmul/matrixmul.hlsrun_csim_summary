@@ -1,0 +1,157 @@
+<ENTRY>
+{
+ "thisFile": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_mmul\\matrixmul\\matrixmul.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "06/30/26 11:34:16",
+ "timestampMillis": "1782837256590",
+ "buildStep": {
+  "cmdId": "2f9a2806-359a-49f5-9f57-e80d7396ff91",
+  "name": "vitis-run",
+  "logFile": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_mmul\\matrixmul\\logs\\matrixmul.steps.log",
+  "commandLine": "C:/Xilinx/2025.1/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config D:\\ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_mmul\\hls_config.cfg --work_dir matrixmul ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "D:\\ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_mmul\\hls_config.cfg",
+   "--work_dir",
+   "matrixmul"
+  ],
+  "iniFiles": [],
+  "cwd": "D:\\ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_mmul"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/30/26 11:34:16",
+ "timestampMillis": "1782837256590",
+ "status": {
+  "cmdId": "2f9a2806-359a-49f5-9f57-e80d7396ff91",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "06/30/26 11:34:25",
+ "timestampMillis": "1782837265571",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "matrixmul",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "D:/ELEC_522\\FpgaEx\\Fpga_hls\\matrixmul.cpp",
+     "D:/ELEC_522\\FpgaEx\\Fpga_hls\\matrixmul.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "06/30/26 11:34:25",
+ "timestampMillis": "1782837265573",
+ "buildStep": {
+  "cmdId": "cafb59c4-ff04-4c93-bc00-9b730e2fcd21",
+  "name": "",
+  "logFile": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_mmul\\matrixmul\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "D:\\ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_mmul"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/30/26 11:34:25",
+ "timestampMillis": "1782837265573",
+ "status": {
+  "cmdId": "cafb59c4-ff04-4c93-bc00-9b730e2fcd21",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/30/26 11:34:30",
+ "timestampMillis": "1782837270487",
+ "status": {
+  "cmdId": "cafb59c4-ff04-4c93-bc00-9b730e2fcd21",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/30/26 11:34:30",
+ "timestampMillis": "1782837270630",
+ "status": {
+  "cmdId": "2f9a2806-359a-49f5-9f57-e80d7396ff91",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/30/26 11:34:30",
+ "timestampMillis": "1782837270630",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/30/26 11:34:30",
+ "timestampMillis": "1782837270631",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

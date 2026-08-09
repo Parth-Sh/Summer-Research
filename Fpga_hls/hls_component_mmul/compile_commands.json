@@ -1,0 +1,29 @@
+[
+  {
+    "directory": "D:\\ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_mmul",
+    "arguments": [
+      "C:\\Xilinx\\2025.1\\Vitis\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\Xilinx\\2025.1\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\2025.1\\Vitis\\common\\technology\\autopilot",
+      "-fhlstoplevel=matrixmul",
+      "-c",
+      "D:\\ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_mmul\\..\\matrixmul.cpp"
+    ],
+    "file": "D:\\ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_mmul\\..\\matrixmul.cpp"
+  },
+  {
+    "directory": "D:\\ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_mmul",
+    "arguments": [
+      "C:\\Xilinx\\2025.1\\Vitis\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\Xilinx\\2025.1\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=C:\\Xilinx\\2025.1\\Vitis\\include",
+      "-D",
+      "HW_COSIM",
+      "-c",
+      "D:\\ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_mmul\\..\\matrixmul_test.cpp"
+    ],
+    "file": "D:\\ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_mmul\\..\\matrixmul_test.cpp"
+  }
+]

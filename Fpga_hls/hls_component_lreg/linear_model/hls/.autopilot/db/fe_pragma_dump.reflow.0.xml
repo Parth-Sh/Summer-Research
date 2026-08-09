@@ -1,0 +1,8 @@
+<pragmas>
+<pragma file="../l_reg.cpp" line="11" pragmaType="interface" parentfunction="linear_model" mode="s_axilite" port="" bundle="HLS_LINEAR_PERIPH_BUS" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../l_reg.cpp" line="12" pragmaType="interface" parentfunction="linear_model" mode="s_axilite" port="x" bundle="HLS_LINEAR_PERIPH_BUS" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../l_reg.cpp" line="13" pragmaType="interface" parentfunction="linear_model" mode="s_axilite" port="m" bundle="HLS_LINEAR_PERIPH_BUS" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../l_reg.cpp" line="14" pragmaType="interface" parentfunction="linear_model" mode="s_axilite" port="c" bundle="HLS_LINEAR_PERIPH_BUS" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../l_reg.cpp" line="15" pragmaType="interface" parentfunction="linear_model" mode="s_axilite" port="y" bundle="HLS_LINEAR_PERIPH_BUS" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../l_reg.cpp" line="16" pragmaType="interface" parentfunction="linear_model" mode="s_axilite" port="done" bundle="HLS_LINEAR_PERIPH_BUS" offset="-1" name="" clock="" impl="" register="0"/>
+</pragmas>

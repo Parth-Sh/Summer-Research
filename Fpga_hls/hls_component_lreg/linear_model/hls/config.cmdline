@@ -1,0 +1,3 @@
+relativeroot=D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg
+original_argv=--mode hls --impl --config D:\ELEC_522\FpgaEx\Fpga_hls\hls_component_lreg\hls_config.cfg --work_dir linear_model 
+

@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Tue Jun 30 10:52:40 2026
+# Process ID         : 22340
+# Current directory  : D:/ELEC_522/FpgaEx/Vivado/project_2/project_2.runs/impl_1
+# Command line       : vivado.exe -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file           : D:/ELEC_522/FpgaEx/Vivado/project_2/project_2.runs/impl_1/design_1_wrapper.vdi
+# Journal file       : D:/ELEC_522/FpgaEx/Vivado/project_2/project_2.runs/impl_1\vivado.jou
+# Running On         : CML-09
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19045
+# Processor Detail   : Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz
+# CPU Frequency      : 3193 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 68637 MB
+# Swap memory        : 0 MB
+# Total Virtual      : 68637 MB
+# Available Virtual  : 41308 MB
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace

@@ -1,0 +1,92 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
+| Date         : Wed Jun 24 14:09:11 2026
+| Host         : CML-09 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file bd_0_wrapper_control_sets_placed.rpt
+| Design       : bd_0_wrapper
+| Device       : xc7z020
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    14 |
+|    Minimum number of control sets                        |    14 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    21 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    14 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    12 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               2 |            2 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              21 |           10 |
+| Yes          | No                    | No                     |             101 |           26 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             319 |          103 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------+-----------------------------------------------------------------------+-----------------------------------------------------------------------+------------------+----------------+--------------+
+| Clock Signal |                             Enable Signal                             |                            Set/Reset Signal                           | Slice Load Count | Bel Load Count | Bels / Slice |
++--------------+-----------------------------------------------------------------------+-----------------------------------------------------------------------+------------------+----------------+--------------+
+|  ap_clk      |                                                                       |                                                                       |                2 |              2 |         1.00 |
+|  ap_clk      | bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/waddr             |                                                                       |                2 |              5 |         2.50 |
+|  ap_clk      |                                                                       | bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/ap_rst_n_inv      |               10 |             21 |         2.10 |
+|  ap_clk      | bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/ar_hs             | bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/rdata[31]_i_1_n_0 |               27 |             30 |         1.11 |
+|  ap_clk      | bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/int_b[31]_i_1_n_0 | bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/ap_rst_n_inv      |                7 |             32 |         4.57 |
+|  ap_clk      | bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/int_c[31]_i_1_n_0 | bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/ap_rst_n_inv      |                5 |             32 |         6.40 |
+|  ap_clk      | bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/int_a[31]_i_1_n_0 | bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/ap_rst_n_inv      |                7 |             32 |         4.57 |
+|  ap_clk      | bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/int_g[31]_i_1_n_0 | bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/ap_rst_n_inv      |                7 |             32 |         4.57 |
+|  ap_clk      | bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/int_f[31]_i_1_n_0 | bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/ap_rst_n_inv      |                7 |             32 |         4.57 |
+|  ap_clk      | bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/int_h[31]_i_1_n_0 | bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/ap_rst_n_inv      |                9 |             32 |         3.56 |
+|  ap_clk      | bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/int_e[31]_i_1_n_0 | bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/ap_rst_n_inv      |               17 |             32 |         1.88 |
+|  ap_clk      | bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/int_d[31]_i_1_n_0 | bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/ap_rst_n_inv      |                8 |             32 |         4.00 |
+|  ap_clk      | bd_0_i/hls_inst/inst/ap_CS_fsm_state2                                 | bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/ap_rst_n_inv      |                9 |             33 |         3.67 |
+|  ap_clk      | bd_0_i/hls_inst/inst/ap_CS_fsm_state1                                 |                                                                       |               24 |             96 |         4.00 |
++--------------+-----------------------------------------------------------------------+-----------------------------------------------------------------------+------------------+----------------+--------------+
+
+

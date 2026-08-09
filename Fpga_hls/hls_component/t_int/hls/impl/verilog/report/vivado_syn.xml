@@ -1,0 +1,131 @@
+<profile>
+<RunData>
+  <RUN_TYPE>synth</RUN_TYPE>
+  <VIVADO_VERSION>v.2025.1</VIVADO_VERSION>
+  <ROOT_MODULE_CELL>bd_0_i/hls_inst</ROOT_MODULE_CELL>
+</RunData>
+<TimingReport>
+  <TargetClockPeriod>10.000</TargetClockPeriod>
+  <AchievedClockPeriod>4.233</AchievedClockPeriod>
+  <CLOCK_NAME>ap_clk</CLOCK_NAME>
+  <CP_FINAL>4.233</CP_FINAL>
+  <CP_ROUTE>NA</CP_ROUTE>
+  <CP_SYNTH>4.233</CP_SYNTH>
+  <CP_TARGET>10.000</CP_TARGET>
+  <SLACK_FINAL>5.767</SLACK_FINAL>
+  <SLACK_ROUTE></SLACK_ROUTE>
+  <SLACK_SYNTH>5.767</SLACK_SYNTH>
+  <TIMING_MET>TRUE</TIMING_MET>
+  <TNS_FINAL>0.000</TNS_FINAL>
+  <TNS_ROUTE>NA</TNS_ROUTE>
+  <TNS_SYNTH>0.000</TNS_SYNTH>
+  <WNS_FINAL>5.767</WNS_FINAL>
+  <WNS_ROUTE>NA</WNS_ROUTE>
+  <WNS_SYNTH>5.767</WNS_SYNTH>
+</TimingReport>
+<AreaReport>
+  <Resources>
+    <BRAM>0</BRAM>
+    <CLB>0</CLB>
+    <DSP>0</DSP>
+    <FF>443</FF>
+    <LATCH>0</LATCH>
+    <LUT>479</LUT>
+    <SRL>0</SRL>
+    <URAM>0</URAM>
+  </Resources>
+  <AvailableResources>
+    <BRAM>280</BRAM>
+    <CLB>0</CLB>
+    <DSP>220</DSP>
+    <FF>106400</FF>
+    <LUT>53200</LUT>
+    <URAM>0</URAM>
+  </AvailableResources>
+</AreaReport>
+<RtlModules>
+  <RtlModule CELL="inst" DEPTH="0" FILE_NAME="bd_0_hls_inst_0.v" ORIG_REF_NAME="t_int" TOP_CELL="bd_0_i/hls_inst/inst">
+    <SubModules count="1">HLS_TREEADD_PERIPH_BUS_s_axi_U</SubModules>
+    <Resources FF="443" LUT="479" LogicLUT="479"/>
+    <LocalResources FF="98"/>
+  </RtlModule>
+  <RtlModule CELL="inst/HLS_TREEADD_PERIPH_BUS_s_axi_U" DEPTH="1" FILE_NAME="t_int.v" ORIG_REF_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi">
+    <Resources FF="345" LUT="479" LogicLUT="479"/>
+  </RtlModule>
+</RtlModules>
+<TimingPaths>
+  <TPATH DATAPATH_DELAY="4.258" DATAPATH_LOGIC_DELAY="2.379" DATAPATH_NET_DELAY="1.879" ENDPOINT_PIN="bd_0_i/hls_inst/inst/add_ln43_5_reg_183_reg[29]/D" LOGIC_LEVELS="9" MAX_FANOUT="5" SLACK="5.767" STARTPOINT_PIN="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/int_e_reg[4]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/int_e_reg[4]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="346"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183[7]_i_12" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="t_int.v" LINE_NUMBER="233"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183[7]_i_4" PRIMITIVE_TYPE="LUT.others.LUT5" FILE_NAME="t_int.v" LINE_NUMBER="233"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[7]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[11]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[15]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[19]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[23]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[27]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[31]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/add_ln43_5_reg_183_reg[29]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="t_int.v" LINE_NUMBER="156"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="4.252" DATAPATH_LOGIC_DELAY="2.373" DATAPATH_NET_DELAY="1.879" ENDPOINT_PIN="bd_0_i/hls_inst/inst/add_ln43_5_reg_183_reg[31]/D" LOGIC_LEVELS="9" MAX_FANOUT="5" SLACK="5.773" STARTPOINT_PIN="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/int_e_reg[4]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/int_e_reg[4]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="346"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183[7]_i_12" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="t_int.v" LINE_NUMBER="233"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183[7]_i_4" PRIMITIVE_TYPE="LUT.others.LUT5" FILE_NAME="t_int.v" LINE_NUMBER="233"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[7]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[11]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[15]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[19]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[23]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[27]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[31]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/add_ln43_5_reg_183_reg[31]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="t_int.v" LINE_NUMBER="156"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="4.177" DATAPATH_LOGIC_DELAY="2.298" DATAPATH_NET_DELAY="1.879" ENDPOINT_PIN="bd_0_i/hls_inst/inst/add_ln43_5_reg_183_reg[30]/D" LOGIC_LEVELS="9" MAX_FANOUT="5" SLACK="5.848" STARTPOINT_PIN="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/int_e_reg[4]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/int_e_reg[4]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="346"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183[7]_i_12" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="t_int.v" LINE_NUMBER="233"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183[7]_i_4" PRIMITIVE_TYPE="LUT.others.LUT5" FILE_NAME="t_int.v" LINE_NUMBER="233"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[7]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[11]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[15]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[19]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[23]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[27]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[31]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/add_ln43_5_reg_183_reg[30]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="t_int.v" LINE_NUMBER="156"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="4.153" DATAPATH_LOGIC_DELAY="2.274" DATAPATH_NET_DELAY="1.879" ENDPOINT_PIN="bd_0_i/hls_inst/inst/add_ln43_5_reg_183_reg[28]/D" LOGIC_LEVELS="9" MAX_FANOUT="5" SLACK="5.872" STARTPOINT_PIN="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/int_e_reg[4]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/int_e_reg[4]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="346"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183[7]_i_12" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="t_int.v" LINE_NUMBER="233"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183[7]_i_4" PRIMITIVE_TYPE="LUT.others.LUT5" FILE_NAME="t_int.v" LINE_NUMBER="233"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[7]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[11]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[15]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[19]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[23]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[27]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[31]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/add_ln43_5_reg_183_reg[28]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="t_int.v" LINE_NUMBER="156"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="4.141" DATAPATH_LOGIC_DELAY="2.262" DATAPATH_NET_DELAY="1.879" ENDPOINT_PIN="bd_0_i/hls_inst/inst/add_ln43_5_reg_183_reg[25]/D" LOGIC_LEVELS="8" MAX_FANOUT="5" SLACK="5.884" STARTPOINT_PIN="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/int_e_reg[4]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/int_e_reg[4]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="346"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183[7]_i_12" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="t_int.v" LINE_NUMBER="233"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183[7]_i_4" PRIMITIVE_TYPE="LUT.others.LUT5" FILE_NAME="t_int.v" LINE_NUMBER="233"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[7]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[11]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[15]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[19]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[23]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/HLS_TREEADD_PERIPH_BUS_s_axi_U/add_ln43_5_reg_183_reg[27]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v" LINE_NUMBER="195"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/add_ln43_5_reg_183_reg[25]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="t_int.v" LINE_NUMBER="156"/>
+  </TPATH>
+</TimingPaths>
+<VivadoReportFiles>
+  <ReportFile TYPE="design_analysis" PATH="verilog/report/t_int_design_analysis_synth.rpt"/>
+  <ReportFile TYPE="failfast" PATH="verilog/report/t_int_failfast_synth.rpt"/>
+  <ReportFile TYPE="power" PATH="verilog/report/t_int_power_synth.rpt"/>
+  <ReportFile TYPE="timing" PATH="verilog/report/t_int_timing_synth.rpt"/>
+  <ReportFile TYPE="timing_paths" PATH="verilog/report/t_int_timing_paths_synth.rpt"/>
+  <ReportFile TYPE="utilization" PATH="verilog/report/t_int_utilization_synth.rpt"/>
+  <ReportFile TYPE="utilization_hierarchical" PATH="verilog/report/t_int_utilization_hierarchical_synth.rpt"/>
+</VivadoReportFiles>
+</profile>

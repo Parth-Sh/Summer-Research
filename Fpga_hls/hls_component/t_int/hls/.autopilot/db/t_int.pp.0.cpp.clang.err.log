@@ -1,0 +1,37 @@
+directive:1:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=t_int_XLX_SEP_ PragmaOptions=name=t_int_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE TOP name=t_int
+        ^
+../t_int.cpp:30:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=t_int_XLX_SEP_ PragmaOptions=s_axilite port=return bundle=HLS_TREEADD_PERIPH_BUS_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE s_axilite port=return bundle=HLS_TREEADD_PERIPH_BUS
+        ^
+../t_int.cpp:31:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=t_int_XLX_SEP_ PragmaOptions=s_axilite port=a bundle=HLS_TREEADD_PERIPH_BUS_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE s_axilite port=a bundle=HLS_TREEADD_PERIPH_BUS
+        ^
+../t_int.cpp:32:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=t_int_XLX_SEP_ PragmaOptions=s_axilite port=b bundle=HLS_TREEADD_PERIPH_BUS_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE s_axilite port=b bundle=HLS_TREEADD_PERIPH_BUS
+        ^
+../t_int.cpp:33:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=t_int_XLX_SEP_ PragmaOptions=s_axilite port=c bundle=HLS_TREEADD_PERIPH_BUS_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE s_axilite port=c bundle=HLS_TREEADD_PERIPH_BUS
+        ^
+../t_int.cpp:34:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=t_int_XLX_SEP_ PragmaOptions=s_axilite port=d bundle=HLS_TREEADD_PERIPH_BUS_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE s_axilite port=d bundle=HLS_TREEADD_PERIPH_BUS
+        ^
+../t_int.cpp:35:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=t_int_XLX_SEP_ PragmaOptions=s_axilite port=e bundle=HLS_TREEADD_PERIPH_BUS_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE s_axilite port=e bundle=HLS_TREEADD_PERIPH_BUS
+        ^
+../t_int.cpp:36:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=t_int_XLX_SEP_ PragmaOptions=s_axilite port=f bundle=HLS_TREEADD_PERIPH_BUS_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE s_axilite port=f bundle=HLS_TREEADD_PERIPH_BUS
+        ^
+../t_int.cpp:37:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=t_int_XLX_SEP_ PragmaOptions=s_axilite port=g bundle=HLS_TREEADD_PERIPH_BUS_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE s_axilite port=g bundle=HLS_TREEADD_PERIPH_BUS
+        ^
+../t_int.cpp:38:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=t_int_XLX_SEP_ PragmaOptions=s_axilite port=h bundle=HLS_TREEADD_PERIPH_BUS_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE s_axilite port=h bundle=HLS_TREEADD_PERIPH_BUS
+        ^
+../t_int.cpp:39:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=t_int_XLX_SEP_ PragmaOptions=s_axilite port=r bundle=HLS_TREEADD_PERIPH_BUS_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE s_axilite port=r bundle=HLS_TREEADD_PERIPH_BUS
+        ^
+../t_int.cpp:40:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=t_int_XLX_SEP_ PragmaOptions=s_axilite port=done bundle=HLS_TREEADD_PERIPH_BUS_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE s_axilite port=done bundle=HLS_TREEADD_PERIPH_BUS
+        ^
+12 warnings generated.

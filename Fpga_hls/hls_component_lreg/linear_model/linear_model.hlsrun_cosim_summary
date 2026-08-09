@@ -1,0 +1,227 @@
+<ENTRY>
+{
+ "thisFile": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\linear_model\\linear_model.hlsrun_cosim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "06/30/26 10:24:48",
+ "timestampMillis": "1782833088611",
+ "buildStep": {
+  "cmdId": "8ce2df90-9ccc-40a3-a34f-e2345e617046",
+  "name": "vitis-run",
+  "logFile": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\linear_model\\logs\\linear_model.steps.log",
+  "commandLine": "C:/Xilinx/2025.1/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --cosim --config D:\\ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\hls_config.cfg --work_dir linear_model ",
+  "args": [
+   "--mode",
+   "hls",
+   "--cosim",
+   "--config",
+   "D:\\ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\hls_config.cfg",
+   "--work_dir",
+   "linear_model"
+  ],
+  "iniFiles": [],
+  "cwd": "D:\\ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/30/26 10:24:48",
+ "timestampMillis": "1782833088611",
+ "status": {
+  "cmdId": "8ce2df90-9ccc-40a3-a34f-e2345e617046",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "06/30/26 10:24:57",
+ "timestampMillis": "1782833097849",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_RTL_COSIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "linear_model",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "D:/ELEC_522\\FpgaEx\\Fpga_hls\\l_reg.cpp",
+     "D:/ELEC_522\\FpgaEx\\Fpga_hls\\l_reg.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "06/30/26 10:24:57",
+ "timestampMillis": "1782833097850",
+ "buildStep": {
+  "cmdId": "2cf10dbf-6ab6-41d0-8444-4bf78dca663a",
+  "name": "",
+  "logFile": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\linear_model\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "D:\\ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/30/26 10:24:57",
+ "timestampMillis": "1782833097851",
+ "status": {
+  "cmdId": "2cf10dbf-6ab6-41d0-8444-4bf78dca663a",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/30/26 10:24:57",
+ "timestampMillis": "1782833097851",
+ "report": {
+  "path": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\linear_model\\hls\\sim\\report\\linear_model_cosim.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_COSIMULATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/30/26 10:24:57",
+ "timestampMillis": "1782833097851",
+ "report": {
+  "path": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\linear_model\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/30/26 10:24:57",
+ "timestampMillis": "1782833097852",
+ "report": {
+  "path": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\linear_model\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH_COSIM",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/30/26 10:24:57",
+ "timestampMillis": "1782833097852",
+ "report": {
+  "path": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\linear_model\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_TIMELINE_TRACE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/30/26 10:24:57",
+ "timestampMillis": "1782833097853",
+ "report": {
+  "path": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\linear_model\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_WAVE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/30/26 10:26:13",
+ "timestampMillis": "1782833173143",
+ "status": {
+  "cmdId": "2cf10dbf-6ab6-41d0-8444-4bf78dca663a",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/30/26 10:26:13",
+ "timestampMillis": "1782833173295",
+ "status": {
+  "cmdId": "8ce2df90-9ccc-40a3-a34f-e2345e617046",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/30/26 10:26:13",
+ "timestampMillis": "1782833173296",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/30/26 10:26:13",
+ "timestampMillis": "1782833173296",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

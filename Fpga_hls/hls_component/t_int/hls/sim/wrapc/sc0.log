@@ -1,0 +1,6 @@
+   Build using "C:/Xilinx/2025.1/Vitis/win64/tools/vcxx/libexec/clang++"
+   Compiling apatb_t_int.cpp
+   Compiling t_int.cpp_pre.cpp.tb.cpp
+   Compiling t_int_test.cpp_pre.cpp.tb.cpp
+   Compiling apatb_t_int_ir.ll
+   Generating cosim.tv.exe

@@ -1,0 +1,269 @@
+<ENTRY>
+{
+ "thisFile": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\linear_model\\linear_model.hlsrun_impl_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "06/30/26 10:31:19",
+ "timestampMillis": "1782833479213",
+ "buildStep": {
+  "cmdId": "0afe0831-a7ee-4b8c-893b-b38ca1a6da14",
+  "name": "vitis-run",
+  "logFile": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\linear_model\\logs\\linear_model.steps.log",
+  "commandLine": "C:/Xilinx/2025.1/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --impl --config D:\\ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\hls_config.cfg --work_dir linear_model ",
+  "args": [
+   "--mode",
+   "hls",
+   "--impl",
+   "--config",
+   "D:\\ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\hls_config.cfg",
+   "--work_dir",
+   "linear_model"
+  ],
+  "iniFiles": [],
+  "cwd": "D:\\ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/30/26 10:31:19",
+ "timestampMillis": "1782833479214",
+ "status": {
+  "cmdId": "0afe0831-a7ee-4b8c-893b-b38ca1a6da14",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "06/30/26 10:31:28",
+ "timestampMillis": "1782833488307",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IMPL",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "linear_model",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "D:/ELEC_522\\FpgaEx\\Fpga_hls\\l_reg.cpp",
+     "D:/ELEC_522\\FpgaEx\\Fpga_hls\\l_reg.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "06/30/26 10:31:28",
+ "timestampMillis": "1782833488308",
+ "buildStep": {
+  "cmdId": "4d940184-5b64-4ee8-a7f3-766a953c0501",
+  "name": "",
+  "logFile": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\linear_model\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "D:\\ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/30/26 10:31:28",
+ "timestampMillis": "1782833488309",
+ "status": {
+  "cmdId": "4d940184-5b64-4ee8-a7f3-766a953c0501",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/30/26 10:31:28",
+ "timestampMillis": "1782833488311",
+ "report": {
+  "path": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\linear_model\\hls\\impl\\verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/30/26 10:31:28",
+ "timestampMillis": "1782833488311",
+ "report": {
+  "path": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\linear_model\\hls\\impl\\report\\verilog\\export_syn.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/30/26 10:31:28",
+ "timestampMillis": "1782833488312",
+ "report": {
+  "path": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\linear_model\\hls\\impl\\report\\verilog\\export_syn.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/30/26 10:31:28",
+ "timestampMillis": "1782833488312",
+ "report": {
+  "path": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\linear_model\\hls\\impl\\verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/30/26 10:31:28",
+ "timestampMillis": "1782833488313",
+ "report": {
+  "path": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\linear_model\\hls\\impl\\report\\verilog\\export_impl.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/30/26 10:31:28",
+ "timestampMillis": "1782833488313",
+ "report": {
+  "path": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\linear_model\\hls\\impl\\report\\verilog\\export_impl.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/30/26 10:37:06",
+ "timestampMillis": "1782833826366",
+ "report": {
+  "path": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\linear_model\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/30/26 10:37:06",
+ "timestampMillis": "1782833826367",
+ "report": {
+  "path": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\linear_model\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/30/26 10:37:06",
+ "timestampMillis": "1782833826367",
+ "status": {
+  "cmdId": "4d940184-5b64-4ee8-a7f3-766a953c0501",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/30/26 10:37:06",
+ "timestampMillis": "1782833826497",
+ "status": {
+  "cmdId": "0afe0831-a7ee-4b8c-893b-b38ca1a6da14",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/30/26 10:37:06",
+ "timestampMillis": "1782833826498",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/30/26 10:37:06",
+ "timestampMillis": "1782833826498",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

@@ -1,0 +1,131 @@
+
+
+================================================================
+== Synthesis Summary Report of 'linear_model'
+================================================================
++ General Information: 
+    * Date:           Tue Jun 30 10:23:07 2026
+    * Version:        2025.1 (Build 6135595 on May 21 2025)
+    * Project:        linear_model
+    * Solution:       hls (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z020-clg484-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +----------------+------+------+---------+--------+----------+---------+------+----------+------+--------+-----------+-----------+-----+
+    |     Modules    | Issue|      |      Latency     | Iteration|         | Trip |          |      |        |           |           |     |
+    |     & Loops    | Type | Slack| (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined| BRAM |   DSP  |     FF    |    LUT    | URAM|
+    +----------------+------+------+---------+--------+----------+---------+------+----------+------+--------+-----------+-----------+-----+
+    |+ linear_model  |     -|  0.09|        2|  20.000|         -|        3|     -|        no|     -|  3 (1%)|  442 (~0%)|  437 (~0%)|    -|
+    +----------------+------+------+---------+--------+----------+---------+------+----------+------+--------+-----------+-----------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* S_AXILITE Interfaces
++-----------------------------+------------+---------------+--------+----------+
+| Interface                   | Data Width | Address Width | Offset | Register |
++-----------------------------+------------+---------------+--------+----------+
+| s_axi_HLS_LINEAR_PERIPH_BUS | 32         | 6             | 16     | 0        |
++-----------------------------+------------+---------------+--------+----------+
+
+* S_AXILITE Registers
++-----------------------------+-----------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| Interface                   | Register  | Offset | Width | Access | Description                      | Bit Fields                                                           |
++-----------------------------+-----------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| s_axi_HLS_LINEAR_PERIPH_BUS | CTRL      | 0x00   | 32    | RW     | Control signals                  | 0=AP_START 1=AP_DONE 2=AP_IDLE 3=AP_READY 7=AUTO_RESTART 9=INTERRUPT |
+| s_axi_HLS_LINEAR_PERIPH_BUS | GIER      | 0x04   | 32    | RW     | Global Interrupt Enable Register | 0=Enable                                                             |
+| s_axi_HLS_LINEAR_PERIPH_BUS | IP_IER    | 0x08   | 32    | RW     | IP Interrupt Enable Register     | 0=CHAN0_INT_EN 1=CHAN1_INT_EN                                        |
+| s_axi_HLS_LINEAR_PERIPH_BUS | IP_ISR    | 0x0c   | 32    | RW     | IP Interrupt Status Register     | 0=CHAN0_INT_ST 1=CHAN1_INT_ST                                        |
+| s_axi_HLS_LINEAR_PERIPH_BUS | x         | 0x10   | 32    | W      | Data signal of x                 |                                                                      |
+| s_axi_HLS_LINEAR_PERIPH_BUS | m         | 0x18   | 32    | W      | Data signal of m                 |                                                                      |
+| s_axi_HLS_LINEAR_PERIPH_BUS | c         | 0x20   | 32    | W      | Data signal of c                 |                                                                      |
+| s_axi_HLS_LINEAR_PERIPH_BUS | y         | 0x28   | 32    | R      | Data signal of y                 |                                                                      |
+| s_axi_HLS_LINEAR_PERIPH_BUS | y_ctrl    | 0x2c   | 32    | R      | Control signal of y              | 0=y_ap_vld                                                           |
+| s_axi_HLS_LINEAR_PERIPH_BUS | done      | 0x38   | 32    | R      | Data signal of done              |                                                                      |
+| s_axi_HLS_LINEAR_PERIPH_BUS | done_ctrl | 0x3c   | 32    | R      | Control signal of done           | 0=done_ap_vld                                                        |
++-----------------------------+-----------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------+
+| Interface | Type       | Ports     |
++-----------+------------+-----------+
+| ap_clk    | clock      | ap_clk    |
+| ap_rst_n  | reset      | ap_rst_n  |
+| interrupt | interrupt  | interrupt |
+| ap_ctrl   | ap_ctrl_hs |           |
++-----------+------------+-----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+----------+
+| Argument | Direction | Datatype |
++----------+-----------+----------+
+| x        | in        | int      |
+| m        | in        | int      |
+| c        | in        | int      |
+| y        | out       | int*     |
+| done     | out       | short*   |
++----------+-----------+----------+
+
+* SW-to-HW Mapping
++----------+-----------------------------+----------+-------------------------------------+
+| Argument | HW Interface                | HW Type  | HW Info                             |
++----------+-----------------------------+----------+-------------------------------------+
+| x        | s_axi_HLS_LINEAR_PERIPH_BUS | register | name=x offset=0x10 range=32         |
+| m        | s_axi_HLS_LINEAR_PERIPH_BUS | register | name=m offset=0x18 range=32         |
+| c        | s_axi_HLS_LINEAR_PERIPH_BUS | register | name=c offset=0x20 range=32         |
+| y        | s_axi_HLS_LINEAR_PERIPH_BUS | register | name=y offset=0x28 range=32         |
+| y        | s_axi_HLS_LINEAR_PERIPH_BUS | register | name=y_ctrl offset=0x2c range=32    |
+| done     | s_axi_HLS_LINEAR_PERIPH_BUS | register | name=done offset=0x38 range=32      |
+| done     | s_axi_HLS_LINEAR_PERIPH_BUS | register | name=done_ctrl offset=0x3c range=32 |
++----------+-----------------------------+----------+-------------------------------------+
+
+
+================================================================
+== Bind Op Report
+================================================================
++-------------------------+-----+--------+----------+-----+--------+---------+
+| Name                    | DSP | Pragma | Variable | Op  | Impl   | Latency |
++-------------------------+-----+--------+----------+-----+--------+---------+
+| + linear_model          | 3   |        |          |     |        |         |
+|   mul_32s_32s_32_2_1_U1 | 3   |        | mul_ln18 | mul | auto   | 1       |
+|   y                     |     |        | add_ln18 | add | fabric | 0       |
++-------------------------+-----+--------+----------+-----+--------+---------+
+
+
+================================================================
+== Storage Report
+================================================================
++---------------------------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+| Name                            | Usage     | Type      | BRAM | URAM | Pragma | Variable | Impl | Latency | Bitwidth, Depth, |
+|                                 |           |           |      |      |        |          |      |         | Banks            |
++---------------------------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+| + linear_model                  |           |           | 0    | 0    |        |          |      |         |                  |
+|   HLS_LINEAR_PERIPH_BUS_s_axi_U | interface | s_axilite |      |      |        |          |      |         |                  |
++---------------------------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------+----------------------------------------------------+-----------------------------------------+
+| Type      | Options                                            | Location                                |
++-----------+----------------------------------------------------+-----------------------------------------+
+| INTERFACE | s_axilite port=return bundle=HLS_LINEAR_PERIPH_BUS | ../l_reg.cpp:11 in linear_model, return |
+| INTERFACE | s_axilite port=x bundle=HLS_LINEAR_PERIPH_BUS      | ../l_reg.cpp:12 in linear_model, x      |
+| INTERFACE | s_axilite port=m bundle=HLS_LINEAR_PERIPH_BUS      | ../l_reg.cpp:13 in linear_model, m      |
+| INTERFACE | s_axilite port=c bundle=HLS_LINEAR_PERIPH_BUS      | ../l_reg.cpp:14 in linear_model, c      |
+| INTERFACE | s_axilite port=y bundle=HLS_LINEAR_PERIPH_BUS      | ../l_reg.cpp:15 in linear_model, y      |
+| INTERFACE | s_axilite port=done bundle=HLS_LINEAR_PERIPH_BUS   | ../l_reg.cpp:16 in linear_model, done   |
++-----------+----------------------------------------------------+-----------------------------------------+
+
+

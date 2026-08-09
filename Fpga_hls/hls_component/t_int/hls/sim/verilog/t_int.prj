@@ -1,0 +1,12 @@
+sv xil_defaultlib "glbl.v"
+sv xil_defaultlib "t_int.autotb.v"
+sv xil_defaultlib "t_int.v"
+sv xil_defaultlib "t_int_HLS_TREEADD_PERIPH_BUS_s_axi.v"
+sv xil_defaultlib "dataflow_monitor.sv"
+sv xil_defaultlib "./file_agent/file_agent_pkg.sv"     
+sv xil_defaultlib "./axivip/axi_pkg.sv"    
+sv xil_defaultlib "./axivip/axi_if.sv"   
+sv xil_defaultlib "./t_int_subsystem/t_int_subsystem_pkg.sv"           
+sv xil_defaultlib "./svtb/misc_interface.sv"    
+sv xil_defaultlib "./svtb/sv_module_top.sv"   
+

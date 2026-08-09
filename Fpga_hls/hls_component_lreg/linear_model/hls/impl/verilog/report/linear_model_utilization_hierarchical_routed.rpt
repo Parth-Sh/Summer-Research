@@ -1,0 +1,34 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
+| Date         : Tue Jun 30 10:37:01 2026
+| Host         : CML-09 running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -hierarchical_depth 5 -file ./report/linear_model_utilization_hierarchical_routed.rpt
+| Design       : bd_0_wrapper
+| Device       : xc7z020clg484-1
+| Speed File   : -1
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++---------------------------------------+----------------------------------------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+|                Instance               |                          Module                          | Total LUTs | Logic LUTs | LUTRAMs | SRLs | FFs | RAMB36 | RAMB18 | DSP Blocks |
++---------------------------------------+----------------------------------------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+| bd_0_wrapper                          |                                                    (top) |        179 |        179 |       0 |    0 | 268 |      0 |      0 |          3 |
+|   bd_0_i                              |                                                     bd_0 |        179 |        179 |       0 |    0 | 268 |      0 |      0 |          3 |
+|     hls_inst                          |                                          bd_0_hls_inst_0 |        179 |        179 |       0 |    0 | 268 |      0 |      0 |          3 |
+|       inst                            |                             bd_0_hls_inst_0_linear_model |        179 |        179 |       0 |    0 | 268 |      0 |      0 |          3 |
+|         (inst)                        |                             bd_0_hls_inst_0_linear_model |          0 |          0 |       0 |    0 |  67 |      0 |      0 |          0 |
+|         HLS_LINEAR_PERIPH_BUS_s_axi_U | bd_0_hls_inst_0_linear_model_HLS_LINEAR_PERIPH_BUS_s_axi |        164 |        164 |       0 |    0 | 184 |      0 |      0 |          0 |
++---------------------------------------+----------------------------------------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+

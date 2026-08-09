@@ -1,0 +1,3 @@
+relativeroot=D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_mmul
+original_argv=--mode hls --csim --config D:\ELEC_522\FpgaEx\Fpga_hls\hls_component_mmul\hls_config.cfg --work_dir matrixmul 
+

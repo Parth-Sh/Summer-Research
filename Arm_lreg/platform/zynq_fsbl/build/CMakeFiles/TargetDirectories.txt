@@ -1,0 +1,3 @@
+D:/ELEC_522/FpgaEx/Arm_lreg/platform/zynq_fsbl/build/CMakeFiles/fsbl.elf.dir
+D:/ELEC_522/FpgaEx/Arm_lreg/platform/zynq_fsbl/build/CMakeFiles/edit_cache.dir
+D:/ELEC_522/FpgaEx/Arm_lreg/platform/zynq_fsbl/build/CMakeFiles/rebuild_cache.dir

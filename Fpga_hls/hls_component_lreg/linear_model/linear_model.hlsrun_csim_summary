@@ -1,0 +1,159 @@
+<ENTRY>
+{
+ "thisFile": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\linear_model\\linear_model.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "06/30/26 10:21:55",
+ "timestampMillis": "1782832915283",
+ "buildStep": {
+  "cmdId": "6adc1a38-913a-4ecf-84b4-8256c0e7d84c",
+  "name": "vitis-run",
+  "logFile": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\linear_model\\logs\\linear_model.steps.log",
+  "commandLine": "C:/Xilinx/2025.1/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config D:\\ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\linear_model\\hls-debug.cfg --config D:\\ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\hls_config.cfg --work_dir linear_model ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "D:\\ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\linear_model\\hls-debug.cfg",
+   "--config",
+   "D:\\ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\hls_config.cfg",
+   "--work_dir",
+   "linear_model"
+  ],
+  "iniFiles": [],
+  "cwd": "D:\\ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/30/26 10:21:55",
+ "timestampMillis": "1782832915284",
+ "status": {
+  "cmdId": "6adc1a38-913a-4ecf-84b4-8256c0e7d84c",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "06/30/26 10:22:04",
+ "timestampMillis": "1782832924101",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "linear_model",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "D:/ELEC_522\\FpgaEx\\Fpga_hls\\l_reg.cpp",
+     "D:/ELEC_522\\FpgaEx\\Fpga_hls\\l_reg.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "06/30/26 10:22:04",
+ "timestampMillis": "1782832924103",
+ "buildStep": {
+  "cmdId": "b917f7e0-52e5-4b1b-9f0b-285a011a3483",
+  "name": "",
+  "logFile": "D:/ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg\\linear_model\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "D:\\ELEC_522\\FpgaEx\\Fpga_hls\\hls_component_lreg"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/30/26 10:22:04",
+ "timestampMillis": "1782832924103",
+ "status": {
+  "cmdId": "b917f7e0-52e5-4b1b-9f0b-285a011a3483",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/30/26 10:22:08",
+ "timestampMillis": "1782832928391",
+ "status": {
+  "cmdId": "b917f7e0-52e5-4b1b-9f0b-285a011a3483",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/30/26 10:22:08",
+ "timestampMillis": "1782832928531",
+ "status": {
+  "cmdId": "6adc1a38-913a-4ecf-84b4-8256c0e7d84c",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/30/26 10:22:08",
+ "timestampMillis": "1782832928532",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/30/26 10:22:08",
+ "timestampMillis": "1782832928532",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

@@ -1,0 +1,89 @@
+  **** HLS Build v2025.1 6135595
+INFO: [HLS 200-2005] Using work_dir D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model 
+INFO: [HLS 200-2176] Writing Vitis IDE component file D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../l_reg.cpp' from D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'D:/ELEC_522/FpgaEx/Fpga_hls/l_reg.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../l_reg.h' from D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'D:/ELEC_522/FpgaEx/Fpga_hls/l_reg.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../l_reg_test.cpp' from D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding test bench file 'D:/ELEC_522/FpgaEx/Fpga_hls/l_reg_test.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file_cflags=../l_reg_test.cpp,-D HW_COSIM' from D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/hls_config.cfg(11)
+INFO: [HLS 200-1465] Applying config ini 'syn.top=linear_model' from D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg484-1' from D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1465] Applying config ini 'clock=10ns' from D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/hls_config.cfg(12)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying config ini 'clock_uncertainty=2ns' from D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/hls_config.cfg(13)
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 2ns.
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/vitis-comp.json
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 1 seconds. CPU system time: 3 seconds. Elapsed time: 6.537 seconds; current allocated memory: 149.184 MB.
+INFO: [HLS 200-10] Analyzing design file '../l_reg.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 7.769 seconds; current allocated memory: 151.324 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 11 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 11 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 11 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 11 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 11 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 11 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details (D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 11 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 11 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 11 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 11 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 11 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details (D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 11 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 11 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 11 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 21 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details (D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 22 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (D:/ELEC_522/FpgaEx/Fpga_hls/hls_component_lreg/linear_model/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 11.642 seconds; current allocated memory: 153.402 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.003 seconds; current allocated memory: 153.402 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 156.816 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.011 seconds; current allocated memory: 157.871 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 177.773 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.032 seconds; current allocated memory: 177.812 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'linear_model' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'linear_model' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.251 seconds; current allocated memory: 177.812 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.028 seconds; current allocated memory: 177.812 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'linear_model' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'linear_model/x' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'linear_model/m' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'linear_model/c' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'linear_model/y' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'linear_model/done' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'linear_model' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'x', 'm', 'c', 'y', 'done' to AXI-Lite port HLS_LINEAR_PERIPH_BUS.
+INFO: [RTGEN 206-100] Generating core module 'mul_32s_32s_32_2_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'linear_model'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.056 seconds; current allocated memory: 177.812 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.477 seconds; current allocated memory: 180.766 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.99 seconds; current allocated memory: 183.848 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for linear_model.
+INFO: [VLOG 209-307] Generating Verilog RTL for linear_model.
+INFO: [HLS 200-789] **** Estimated Fmax: 126.39 MHz
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 5 seconds. Total elapsed time: 27.871 seconds; peak allocated memory: 184.008 MB.
+INFO: [v++ 60-791] Total elapsed time: 0h 0m 34s
