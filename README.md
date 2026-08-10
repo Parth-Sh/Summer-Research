@@ -83,6 +83,3 @@ The design was developed and tested using a **ZedBoard** platform.
 - Vivado
 
 The Linear Regression model was implemented using FPGA hardware to investigate its performance characteristics and explore hardware acceleration for machine learning workloads.
-
-
-└── README.md
